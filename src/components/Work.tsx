@@ -59,25 +59,25 @@ const Work = () => {
               title: "Corruption Complaint and Tracking System",
               category: "Web Dev / Security",
               tools: "HTML, CSS, JavaScript, PHP, MySQL",
-              image: "/images/corruption_system.jpg"
+              image: import.meta.env.BASE_URL + "images/corruption_system.jpg"
             },
             {
               title: "Interactive Storytelling App",
               category: "Web Dev / Entertainment",
               tools: "HTML, CSS, JavaScript",
-              image: "/images/storytelling_app.jpg"
+              image: import.meta.env.BASE_URL + "images/storytelling_app.jpg"
             },
             {
               title: "QR Code Generator & Reader",
               category: "Web Dev / Utility",
               tools: "HTML, CSS, JavaScript, APIs",
-              image: "/images/qrcode_generator.jpg"
+              image: import.meta.env.BASE_URL + "images/qrcode_generator.jpg"
             },
             {
               title: "ATM Simulator",
               category: "Java / C++ / Logic",
               tools: "Java, C++",
-              image: "/images/atm_simulator.jpg"
+              image: import.meta.env.BASE_URL + "images/atm_simulator.jpg"
             }
           ].map((project, index) => (
             <div className="work-box" key={index}>
